@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Dầu Lạc Xứ Quảng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Dầu đậu phộng, dầu lạc, peanut oil" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <link href="~/Content/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="~/Content/css/login_overlay.css" rel='stylesheet' type='text/css' />
+    <link href="~/Content/css/style6.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="~/Content/css/shop.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.css" type="text/css" media="all">
+    <link rel="stylesheet" href="~/Content/css/owl.theme.css" type="text/css" media="all">
+    <link href="~/Content/css/style.css" rel='stylesheet' type='text/css' />
+    <link href="~/Content/css/fontawesome-all.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+          rel="stylesheet">
+    <link href="~/Content/css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="~/Content/css/flexslider.css" type="text/css" media="screen" />
+
+    <!--search jQuery-->
+    <script src="~/Scripts/modernizr-2.6.2.min.js"></script>
+    <script src="~/Scripts/classie-search.js"></script>
+    <script src="~/Scripts/demo1-search.js"></script>
+    <script src="~/Scripts/move-top.js"></script>
+    <script src="~/Scripts/easing.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <!--jQuery-->
+    <script src="~/Scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/Scripts/jquery.flexslider.js"></script>
+    <script src="~/Scripts/easy-responsive-tabs.js"></script>
+    <!-- newsletter modal -->
+    <!-- cart-js -->
+    <script src="~/Scripts/minicart.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <!--//search jQuery-->
+    <!-- cart-js -->
+    <script src="~/Scripts/imagezoom.js"></script>
+</head>
+<body>
+    <div class="banner-top container-fluid" id="home">
+        <!-- header -->
+        <header>
+            <div class="row">
+                <div class="col-md-3 top-info text-left mt-lg-4">
+                    <h6>Liên hệ</h6>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i> Call
+                        </li>
+                        <li class="number-phone mt-3">0929.602.720
+                    </ul>
+                </div>
+                <div class="col-md-6 logo-w3layouts text-center">
+                    <h1 class="logo-w3layouts">
+                        <a class="navbar-brand" href="index.html">
+                            PEANUT OIL
+                        </a>
+                    </h1>
+                    <h4 style="color:#ff4e00;">
+                        Dầu Lạc Xứ Quảng
+                    </h4>
+                </div>
+
+                <div class="col-md-3 top-info-cart text-right mt-lg-4">
+                    <ul class="cart-inner-info">
+                        <li class="button-log">
+                            @if (@HttpContext.Current.User.Identity.Name == string.Empty)
+                            {
+                                <a class="btn-open" href="/Account/Login">
+                                    <span class="fa fa-user" aria-hidden="true"></span>
+                                </a>
+                            }
+                            else
+                            {
+                                <a class="btn-open" href="/account/user-profile">
+                                    <span class="fa fa-user" aria-hidden="true"> @HttpContext.Current.User.Identity.Name</span>
+                                </a>
+                            }
+
+                        </li>
+                        <li class="galssescart galssescart2 cart cart box_1">
+                            <form action="#" method="post" class="last">
+                                <input type="hidden" name="cmd" value="_cart">
+                                <input type="hidden" name="display" value="1">
+                                <button class="top_googles_cart" type="submit" name="submit" value="">
+                                    Giỏ hàng
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>          
+                </div>
+            </div>
+            <div class="search">
+                <div class="mobile-nav-button">
+                    <button id="trigger-overlay" type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <!-- open/close -->
+                <div class="overlay overlay-door">
+                    <button type="button" class="overlay-close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <form action="#" method="post" class="d-flex">
+                        <input class="form-control" type="search" placeholder="Search here..." required="">
+                        <button type="submit" class="btn btn-primary submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+
+                </div>
+                <!-- open/close -->
+            </div>
+            <label class="top-log mx-auto"></label>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
+
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-mega mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link ml-lg-0" href="index.html">
+                                TRANG CHỦ
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                SẢN PHẨM
+                            </a>
+                            <ul class="dropdown-menu mega-menu ">
+                                <li class="media-mini mt-3">
+                                    <a href="shop.html">Designer Glasses</a>
+                                </li>
+                                <li class="">
+                                    <a href="shop.html"> Ray-Ban</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Prescription Glasses</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="customer.html">Customers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/Page" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                BLOG
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+
+        @RenderBody()
+
+        <!--footer -->
+        <footer class="py-lg-5 py-3">
+            <div class="container-fluid px-lg-5 px-3">
+                <div class="row footer-top-w3layouts">
+                    <div class="col-lg-3 footer-grid-w3ls">
+                        <div class="footer-title">
+                            <h3>Thông Tin Về Chúng Tôi</h3>
+                        </div>
+                        <div class="footer-text">
+                            <p>Với xứ mệnh tăng cường sức khỏe cho người Việt chúng tôi luôn mang đến những tinh dầu đạt chuẩn chất lượng được chọn lọc và sản xuất từ những hạt đậu phộng nguyên chất 100%. Còn chần chờ gì nữa mà không liên hệ với chúng tôi để mang những sản phẩm chất lượng cho sức khỏe của gia đình bạn. </p>
+                            <ul class="footer-social text-left mt-lg-4 mt-3">
+
+                                <li class="mx-2">
+                                    <a href="#">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a href="#">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a href="#">
+                                        <span class="fab fa-google-plus-g"></span>
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a href="#">
+                                        <span class="fab fa-linkedin-in"></span>
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a href="#">
+                                        <span class="fas fa-rss"></span>
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a href="#">
+                                        <span class="fab fa-vk"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 footer-grid-w3ls">
+                        <div class="footer-title">
+                            <h3>Get in touch</h3>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Địa chỉ :</h4>
+                            <p>0926k 4th block building, king Avenue, New York City.</p>
+                            <div class="phone">
+                                <h4>Liên hệ :</h4>
+                                <p>Phone : 0929 602 720</p>
+                                <p>
+                                    Email : peanutoil@gmail.com
+                                    <a href="mailto:peanutoil@gmail.com">peanutoil@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 footer-grid-w3ls">
+                        <div class="footer-title">
+                            <h3>Links</h3>
+                        </div>
+                        <ul class="links">
+                            <li>
+                                <a href="index.html">Trang Chủ</a>
+                            </li>
+                            <li>
+                                <a href="about.html">Giới Thiệu</a>
+                            </li>
+                            <li>
+                                <a href="404.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="shop.html">Sản Phẩm</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 footer-grid-w3ls">
+                        <div class="footer-title">
+                            <h3>Maps</h3>
+                            <iframe width="100%" height="400px;" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=48%20Nguy%E1%BB%85n%20%C4%90%C3%ACnh%20Chi%E1%BB%83u%20%2C%20Distrist%201%2C%20Ho%20Chi%20Minh+(Peanut%20Oil)&ie=UTF8&t=&z=17&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/en/custom-google-maps/">www.mapsdirections.info</a> by <a href="https://www.mapsdirections.info/en/">Measure area on map</a></iframe><br />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-w3layouts mt-4">
+                    <p class="copy-right text-center ">
+                        &copy; 2018 Goggles. All Rights Reserved | Design by
+                        <a href="http://w3layouts.com/"> W3layouts </a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
