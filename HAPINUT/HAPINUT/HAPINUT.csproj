@@ -212,6 +212,7 @@
     <Compile Include="Models\Account\LoginUserViewModel.cs" />
     <Compile Include="Models\Account\OrderForUserViewModel.cs" />
     <Compile Include="Models\Account\UserViewModel.cs" />
+    <Compile Include="Models\Cart\CartViewModel.cs" />
     <Compile Include="Models\Pages\PageViewModel.cs" />
     <Compile Include="Models\Shop\CategoryViewModel.cs" />
     <Compile Include="Models\Shop\OrderViewModel.cs" />
@@ -862,6 +863,7 @@
     <Content Include="Content\webfonts\fa-brands-400.svg" />
     <Content Include="Content\webfonts\fa-regular-400.svg" />
     <Content Include="Content\webfonts\fa-solid-900.svg" />
+    <Content Include="Data\script.sql" />
     <Content Include="DTO\DbContext.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DbContext.edmx</DependentUpon>
